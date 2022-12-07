@@ -10,7 +10,6 @@ function cleanNames(){
 
 document.addEventListener('DOMContentLoaded', function () {
   if(document.body.classList.contains('build-monitor')) {
-    setTimeout(cleanNames, 500)
-    setTimeout(cleanNames, 1000)
+    setInterval(cleanNames, 500)
   }
 });
